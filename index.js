@@ -36,3 +36,5 @@ client.on("message", async message => {
     command_function.execute(client, message, args, db);
   }
 })
+
+client.login(config.token);
